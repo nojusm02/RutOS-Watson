@@ -1,6 +1,6 @@
 # RutOS-Watson implementation
 
-libiotp_device - Watson IoT C sdk lib ported to RutOS.
+libiotp_device - Watson IoT C sdk lib package for RutOS.
 
 watson-sender - program to send device's uptime data to Watson ibmcloud
 
