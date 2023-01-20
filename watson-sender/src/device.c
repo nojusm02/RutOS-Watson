@@ -49,16 +49,6 @@ int main(int argc, char **argv)
     arguments.daemonize = 0;
     argp_parse(&argp, argc, argv, 0, 0, &arguments);
 
-    /*
-    printf("Organization id = %s\nType id = %s\n"
-           "Device id = %s\nAuth token = %s\nConfig file = %s\n",
-           arguments.args[0],
-           arguments.args[1],
-           arguments.args[2],
-           arguments.args[3],
-           arguments.configFilePath);
-    */
-
     int rc = 0;
 
     signal(SIGINT, sigHandler);
